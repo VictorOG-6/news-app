@@ -5,7 +5,7 @@ import { news } from "@/types"
 import { useSearchParams } from "next/navigation"
 import { useEffect, useState } from "react"
 
-const page = () => {
+const Search = () => {
     const [newsData, setNewsData] = useState<any>([])
     const [loading, setLoading] = useState<boolean>(false)
     const searchParams = useSearchParams()
@@ -57,4 +57,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Search

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import TopHeadlines from "../components/TopHeadlines";
 
 export default function Home() {
